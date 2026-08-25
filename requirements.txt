@@ -6,8 +6,10 @@ numpy>=2.0
 torch>=2.0
 silero-vad>=6.0
 
+# Concept 3: Streaming ASR
+faster-whisper>=1.0
+
 # Later concepts will add here, e.g.:
-# faster-whisper            (Concept 3: streaming ASR)
 # fastapi, uvicorn, websockets  (Concept 4: WebSocket server)
 # ollama, langgraph, chromadb   (Concept 5-6: agent + RAG)
 # kokoro-onnx or piper-tts       (Concept 7: streaming TTS)
